@@ -1,0 +1,14 @@
+
+.main1{
+    width: 100vw;
+    min-height: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainOneFirstContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
