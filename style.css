@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.neuerscheinungen{
+    width: 80%;
+    
+}
+.card{
+    display: inline-block;
+    border-radius: 0;
+}
+span{
+    background-color: black;
+}
+.card-img-top{
+    height: 100px;
+    border-radius: 0;
+}
