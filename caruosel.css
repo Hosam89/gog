@@ -1,0 +1,50 @@
+/* .corasesl{
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+} */
+
+/* #prev-btn{
+border: solid 3px white;
+border-radius: 50%;
+background-color: gray;
+position: absolute;
+top: 45%;
+left: -10%;
+}
+
+#next-btn{
+    border: solid 3px white;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 45%;
+    left: 90%;
+    } */
+
+
+    .carousel {
+        overflow: hidden;
+        width: 60%;
+    }
+    .carousel-inner {
+        width: 150%;
+        left: -25%;
+    }
+    .carousel-inner > .carousel-item.next, 
+    .carousel-inner > .carousel-item.active.right {
+        -webkit-transform: translate3d(33%, 0, 0);
+        transform: translate3d(33%, 0, 0);
+    }
+    .carousel-inner > .carousel-item.prev, 
+    .carousel-inner > .carousel-item.active.left {
+        -webkit-transform: translate3d(-33%, 0, 0);
+        transform: translate3d(-33%, 0, 0);
+    }
+    .carousel-control.prev, 
+    .carousel-control.next {
+        background: rgba(255, 255, 255, 0.3);
+        width: 25%;
+    }
