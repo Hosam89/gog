@@ -1,14 +1,27 @@
 
-.main1{
-    width: 100vw;
-    min-height: 320px;
-    display: flex;
-    justify-content: center;
+.mainOneCardContainers{
+    transition: 500ms;
+    position: relative;
+}
+.mainOne-cart {
+    display: none;
+    transition: 500ms;
+}
+.mainOneCardContainers:hover .mainOne-cart{
+display: block;
 }
 
-.mainOneFirstContainer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 30px;
+.mainOneCardContainers:hover .mainOne-supported-system-icon{
+    opacity: 0;
+    }
+
+.mainOneColoredText{
+    color: blueviolet;
+}
+
+.demo{
+    position: absolute;
+    top: 25%;
+    color: white;
+    font-size: 25px;
 }
